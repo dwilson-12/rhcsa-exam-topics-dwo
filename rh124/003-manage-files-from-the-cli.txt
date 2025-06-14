@@ -61,8 +61,17 @@ SOFT AND HARD LINKS
 	* soft link	= link will be removed	if file is removed or renamed.
 	* hard link	= deleting renaming or moving the original file will not affect the hard link
 
+ - create soft and hard links.
 	$ ln
 	$ ln -s
+
+	Demo:
+		$ touch [filename]
+		$ cd /tmp
+		$ ln -s /home/username/[filename]
+
+ - To find the inode
+	$ ls -ltri
 
 
 
