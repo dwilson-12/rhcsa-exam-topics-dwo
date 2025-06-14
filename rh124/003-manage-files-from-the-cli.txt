@@ -1,0 +1,24 @@
+INTRODUCTION TO FILESYSTEM
+
+What is a filesystem?
+	Ans:	It is a system used by an operating system to manage files.
+		The system controls how data is saved or retrieved.
+
+Operatin system store files and directories in an organized and structured way
+	Examples:
+		* System configuration file	= Folder A
+		* User files			= Folder B
+		* Log fies			= Folder C
+		* Commands or scripts		= Folder D
+
+There are many different types of filesystems.
+	e.g. ext3, ext4, xfs, NTFS, FAT etc.
+
+DIRECTORY LISTING ATTRIBUTES
+
+	* When you do the ls -l this is you will see.
+
+	| Type | # of Links | Owner | Group | Size | Month | Day | Time | Name |
+
+
+	
